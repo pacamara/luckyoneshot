@@ -1,0 +1,71 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<script>
+ function validateForm() {
+    grecaptcha.execute();
+ }
+
+ function submitForm(token) {
+    document.getElementById('theForm').submit();
+    document.getElementById('progressWheel').style.display='block';
+    document.getElementById('visibleButton').style.display='none';
+ }
+
+  function onload() {
+    var element = document.getElementById('pic');
+    element.onchange = {{ submitButtonOnChange }};
+  }
+</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<div class="content">
+  <h2>{{ luckyNumbersHTML|safe }}</h2>
+
+  <h2>{{ noReceiptsReadHTML }}</h1>
+  <h2>{{ sorryNoWinHTML }}</h1>
+  <h1>{{ bigWins10HTML }}</h1>
+  <h1>{{ bigWins2HTML }}</h1>
+  <h2>{{ pw8 }}</h2>
+  <h2>{{ pw7 }}</h2>
+  <h2>{{ pw6 }}</h2>
+  <h3>{{ pw5 }}</h3>
+  <h3>{{ pw4 }}</h3>
+  <h3>{{ pw3 }}</h3>
+  <h3>{{ consolationWinsHTML }}</h3>
+
+  {{ feedbackImageHTML|safe }}
+
+  <h1><span class="smaller">Lucky</span><span class="font-semi-bold"> One Shot</span></h1>
+  <p class="lead">歡迎用 <span class="font-normal">Lucky One Shot</span>, &nbsp; 您的最佳的統一發票對獎伙伴！！<br>
+    （包括106年5-6月期與7-8月期統一發票號碼）
+  </p>
+
+<p><form id="theForm" action="/lucky" enctype="multipart/form-data" method="post">
+    {{ captchaMarkup|safe }}
+
+    <input type="button" class="button" value="🔁" id="visibleButton"
+            onclick="document.getElementById('pic').click();" />
+    <img id="progressWheel" src="/static/progress.gif" height="80" width="80" style="display:none;">
+    <span style="font-size:x-large">&nbsp&nbsp檢查我的發票！</span>
+
+    <input type="file" style="display:none;" id="pic" name="pic" accept="image/*" capture >
+  </form>
+  <script>onload();</script>
+</p>
+
+<p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- LuckyOneShot_A -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0712130062446341"
+     data-ad-slot="8963981699"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</p>  
+
+</div>
+{% endblock content %}
