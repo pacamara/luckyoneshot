@@ -11,9 +11,12 @@ Displays a feedback image to the user with the receipts which it managed to read
 * Build luckyoneshot_cpp
 * Clone/checkout this repo
 * Modify recaptcha site key in views.py:homepageView() (or disable the captcha if not needed)
-* In your checkout dir: `export RECAPTCHA_SECRET="<your recaptcha secret>"; export IMAGE_DIR="/tmp"; 
+* In your checkout directory:
+```
+export RECAPTCHA_SECRET="<your recaptcha secret>"; export IMAGE_DIR="/tmp"; 
 export IS_DEV_BOX=”true”;
-export CPP_EXE="/path/to/luckyoneshot_cpp"; pserve development.ini`
+export CPP_EXE="/path/to/luckyoneshot_cpp"; pserve development.ini
+```
 * You should see e.g.
 
 ```
