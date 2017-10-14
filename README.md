@@ -25,8 +25,8 @@ Serving on http://0.0.0.0:6543
 
 ## Use instructions
 * Click the snapshot button
-** On a mobile phone browser this should directly open the camera. Snap a photo of several receipts.
-** On a PC browser, select an image of several receipts
+> * On a mobile phone browser this should directly open the camera. Snap a photo of several receipts.
+> * On a PC browser, select an image of several receipts
 * Click the submit button and upload the image
 * Complete the captcha if required
 * Wait a few seconds while Lucky One Shot checks the receipts.
