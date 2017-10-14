@@ -1,5 +1,6 @@
 # luckyoneshot
 Web tier for the Lucky One Shot automated batch checker for Taiwan's Uniform Invoice lottery (Python/Pyramid).
+
 Checks an image of several receipts in one shot, and informs user if any are winning.
 Only works for receipts with QR codes (using OCR proved too unreliable).
 Displays a feedback image to the user with the receipts which it managed to read circled in green.
