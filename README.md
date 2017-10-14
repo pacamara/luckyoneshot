@@ -37,3 +37,5 @@ Serving on http://0.0.0.0:6543
 * Complete the captcha if required
 * Wait a few seconds while Lucky One Shot checks the receipts.
 
+For a demonstration of how it works, see https://www.youtube.com/watch?v=TY22fyTxmcE
+
