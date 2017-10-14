@@ -6,7 +6,6 @@ Only works for receipts with QR codes, nearly all shop receipts have these, wher
 Displays a feedback image to the user with the receipts which it managed to read circled in green.
 
 ## Build instructions
-
 * Install libzbar
 * Build luckyoneshot_cpp
 * Clone/checkout this repo
@@ -26,6 +25,9 @@ Serving on http://0.0.0.0:6543
 ```
 
 * Point your browser to http://127.0.0.1:6543 and be lucky!
+
+## Test instructions
+* In the checkout directory: `pytest`
 
 ## Use instructions
 * Click the snapshot button
