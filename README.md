@@ -2,7 +2,7 @@
 Web tier for the Lucky One Shot automated batch checker for Taiwan's Uniform Invoice lottery (Python/Pyramid).
 
 Checks an image of several receipts in one shot, and informs user if any are winning.
-Only works for receipts with QR codes (using OCR proved too unreliable).
+Only works for receipts with QR codes, nearly all shop receipts have these, whereas restaurant receipts typically do not.
 Displays a feedback image to the user with the receipts which it managed to read circled in green.
 
 ## Build instructions
@@ -26,8 +26,8 @@ Serving on http://0.0.0.0:6543
 
 ## Use instructions
 * Click the snapshot button
-* * On a mobile phone browser this should directly open the camera. Snap a photo of several receipts.
-* * On a PC browser, select an image of several receipts
+  * On a mobile phone browser this should directly open the camera. Snap a photo of several receipts.
+  * On a PC browser, select an image of several receipts
 * Click the submit button and upload the image
 * Complete the captcha if required
 * Wait a few seconds while Lucky One Shot checks the receipts.
