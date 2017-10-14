@@ -5,9 +5,11 @@ Checks an image of several receipts in one shot, and informs user if any are win
 Only works for receipts with QR codes, nearly all shop receipts have these, whereas restaurant receipts typically do not.
 Displays a feedback image to the user with the receipts which it managed to read circled in green.
 
+For a demonstration of how it works, see https://www.youtube.com/watch?v=TY22fyTxmcE
+
 ## Build instructions
 * Install libzbar
-* Build luckyoneshot_cpp
+* Build https://github.com/pacamara/luckyoneshot_cpp
 * Clone/checkout this repo
 * Modify recaptcha site key in views.py:homepageView() (or disable the captcha if not needed)
 * In your checkout directory:
@@ -36,6 +38,4 @@ Serving on http://0.0.0.0:6543
 * Click the submit button and upload the image
 * Complete the captcha if required
 * Wait a few seconds while Lucky One Shot checks the receipts.
-
-For a demonstration of how it works, see https://www.youtube.com/watch?v=TY22fyTxmcE
 
