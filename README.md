@@ -8,7 +8,7 @@ Displays a feedback image to the user with the receipts which it managed to read
 For a demonstration of how it works, see https://www.youtube.com/watch?v=TY22fyTxmcE
 
 ## Build instructions
-* Install libzbar
+* Install python 3, opencv, libzbar
 * Build https://github.com/pacamara/luckyoneshot_cpp
 * Clone/checkout this repo
 * Modify recaptcha site key in views.py:homepageView() (or disable the captcha if not needed)
