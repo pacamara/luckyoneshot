@@ -12,7 +12,8 @@ export IS_DEV_BOX=”true”;
 export CPP_EXE="/path/to/luckyoneshot_cpp"; pserve development.ini`
 * You should see e.g.
 
-```Python: IS_DEV_BOX=False
+```
+Python: IS_DEV_BOX=False
 Starting server in PID 5386.
 Serving on http://0.0.0.0:6543
 ```
