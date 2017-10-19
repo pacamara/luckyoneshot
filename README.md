@@ -7,6 +7,8 @@ Displays a feedback image to the user with the receipts which it managed to read
 
 For a demonstration of how it works, see https://www.youtube.com/watch?v=TY22fyTxmcE
 
+Picture of four specimen invoices for testing (not winning ones ;): [test_invoices_x4_106_07-08.jpg](./test_invoices_x4_106_07-08.jpg)
+
 ## Build instructions
 * Install python 3, opencv, libzbar
 * Build https://github.com/pacamara/luckyoneshot_cpp
