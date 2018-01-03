@@ -7,7 +7,7 @@ Displays a feedback image to the user with the receipts which it managed to read
 
 For a demonstration of how it works, see https://www.youtube.com/watch?v=TY22fyTxmcE
 
-Picture of July/August 2017 specimen invoices for testing (not winning ones ;): [four](./test_invoices_x4_106_07-08.jpg), [nine](./test_invoices_x9_106_07-08.jpg), [twelve](./test_invoices_x12_106_07-08.jpg), and [sixteen](./test_invoices_x16_106_07-08.jpg)
+Pictures of July/August 2017 specimen invoices for testing (not winning ones ;): [four](./test_invoices_x4_106_07-08.jpg), [nine](./test_invoices_x9_106_07-08.jpg), [twelve](./test_invoices_x12_106_07-08.jpg), and [sixteen](./test_invoices_x16_106_07-08.jpg) invoices.
 
 ## Build instructions
 * Install python 3, opencv, libzbar
