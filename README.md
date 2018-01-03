@@ -17,7 +17,7 @@ Pictures of July/August 2017 specimen invoices for testing (not winning ones ;):
 * In your checkout directory:
 ```
 export RECAPTCHA_SECRET="<your recaptcha secret>"; export IMAGE_DIR="/tmp"; 
-export IS_DEV_BOX=”true”;
+export IS_DEV_BOX=”false”;
 export CPP_EXE="/path/to/luckyoneshot_cpp"; pserve development.ini
 ```
 * You should see e.g.
